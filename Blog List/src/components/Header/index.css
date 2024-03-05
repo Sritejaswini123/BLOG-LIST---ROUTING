@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* You can change the background color as needed */
+    color: #6307a9; /* You can change the text color as needed */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item to prevent extra space */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3f1fbf; /* You can change the link color as needed */
+  }
+  .about-header{
+    width: 50%; 
+    height: auto;
+    max-width: 50px;
+  }
